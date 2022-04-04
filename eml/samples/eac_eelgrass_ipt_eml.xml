@@ -1,0 +1,217 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="https://ipt.dev.cioosatlantic.ca/resource?id=eac_eelgrass_monitoring/v1.0" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+
+<dataset>
+  <title xml:lang="eng">eac_eelgrass_monitoring</title>
+      <creator>
+    <individualName>
+        <givenName>Jordy</givenName>
+      <surName>Thomson</surName>
+    </individualName>
+    <organizationName>Ecology Action Centre (EAC)</organizationName>
+    <positionName>Senior Marine Coordinator (Ecosystems)</positionName>
+      </creator>
+      <metadataProvider>
+    <individualName>
+        <givenName>Alyssa</givenName>
+      <surName>Densmore</surName>
+    </individualName>
+    <organizationName>Ecology Action Centre (EAC)</organizationName>
+    <positionName>Citizen Science Intern</positionName>
+    <electronicMailAddress>alyssa.densmore@ecologyaction.ca</electronicMailAddress>
+      </metadataProvider>
+      <metadataProvider>
+    <individualName>
+        <givenName>Jordy</givenName>
+      <surName>Thomson</surName>
+    </individualName>
+    <organizationName>Ecology Action Centre (EAC)</organizationName>
+    <positionName>Senior Marine Coordinator (Ecosystems)</positionName>
+      </metadataProvider>
+      <associatedParty>
+    <individualName>
+        <givenName>Jordy</givenName>
+      <surName>Thomson</surName>
+    </individualName>
+    <organizationName>Ecology Action Centre (EAC)</organizationName>
+    <positionName>Senior Marine Coordinator (Ecosystems)</positionName>
+    <address>
+        <deliveryPoint>2705 Fern Ln</deliveryPoint>
+        <city>Halifax</city>
+        <administrativeArea>Nova Scotia</administrativeArea>
+        <postalCode>B3K 4L3</postalCode>
+        <country>CA</country>
+    </address>
+    <electronicMailAddress>jordy.thomson@ecologyaction.ca</electronicMailAddress>
+    <role>user</role>
+      </associatedParty>
+  <pubDate>
+      2022-03-18
+  </pubDate>
+  <language>eng</language>
+  <abstract>
+    <para>The Ecology Action Centre (EAC) is an environmental charity based in Halifax, Nova Scotia. The EAC is working to document eelgrass distribution and health across the province. Data collection is done through a community-based monitoring program referred to as the EAC Citizen Science Eelgrass Monitoring Program. Volunteer citizen scientists assist the EAC in locating and documenting eelgrass beds through kayak surveys. Time lapse photography (via a GoPro Hero 7 mounted on the bottom of the citizen scientist&apos;s boat as they paddle along the coast) is used to capture images of the seabed. These photos are linked to locations from a continuous GPS track recorded using either a handheld GPS or a smartphone tracking app (synced times between the camera and tracking device allow photos and locations to be linked). Once photos are collected, data on eelgrass presence/absence and percent cover are extracted. Over time, the collection of data by citizen scientists will add to our understanding of the current state of eelgrass meadows across the province.</para>
+  </abstract>
+      <keywordSet>
+            <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+            <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+  <intellectualRights>
+    <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+  </intellectualRights>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>Eelgrass observations are collected along the Nova Scotia coastline, spanning southwest NS to the tip of Cape Breton.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-66.27</westBoundingCoordinate>
+          <eastBoundingCoordinate>-59.788</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.07</northBoundingCoordinate>
+          <southBoundingCoordinate>43.501</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+  </coverage>
+  <maintenance>
+    <description>
+      <para></para>
+    </description>
+    <maintenanceUpdateFrequency>continually</maintenanceUpdateFrequency>
+  </maintenance>
+
+      <contact>
+    <individualName>
+        <givenName>Jordy</givenName>
+      <surName>Thomson</surName>
+    </individualName>
+    <organizationName>Ecology Action Centre (EAC)</organizationName>
+    <positionName>Senior Marine Coordinator (Ecosystems)</positionName>
+    <address>
+        <deliveryPoint>2705 Fern Ln</deliveryPoint>
+        <city>Halifax</city>
+        <administrativeArea>Nova Scotia</administrativeArea>
+        <postalCode>B3K 4L3</postalCode>
+        <country>CA</country>
+    </address>
+    <electronicMailAddress>jordy.thomson@ecologyaction.ca</electronicMailAddress>
+      </contact>
+  <methods>
+        <methodStep>
+          <description>
+            <para>Data Collection:
+
+- Coordinators travel to the location of the paddle with all required gear
+- The time on the camera is synced to the time on the tracking device either using a mobile app (GoPro Quik) for smartphones or manually for handheld GPS units; this occurs immediately prior to the paddle.
+- The camera is mounted to the kayak by a multipurpose strap wrapped around the boat just in front of the cockpit so the paddler has easy access to the camera.
+- The camera is mounted to the top of the boat using a velcro sleeve with a standard GoPro mount, which wraps around the strap, and can be easily moved to the keel by sliding the camera over the strap and securing (by tightening the strap) once the camera is located on the keel.
+- Tracks are recorded during the paddle using the smartphone app or handheld GPS and are saved after the completion of the trip.
+- Once all of the gear has stopped recording, it is rinsed down and collected by program coordinators for data extraction and formatting.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Data Formatting:
+
+-A free online platform, GPS visualizer (https://www.gpsvisualizer.com), is used to convert GPS tracks from either an app or GPS unit into a plain text table (with latitude and longitude organized as decimal degrees).
+-Text tables are imported to an excel spreadsheet where times are converted from UTC to 24 hour local time and unnecessary information (such as speed, altitude) are removed.
+-The spreadsheet is formatted to include the following  columns: 
+
+1. paddler name (as two letter initials)
+2. location (general description)
+3. date (yyyy-mm-dd hh:mm:ss)
+4. decimal.latitude
+5. decimal.longitude
+6. image.filename (for the corresponding image to the GPS time point)
+7. image.quality (categorical estimate of ability to clearly identify bottom cover in the image 1: poor, 2: fair, 3: good)
+8. est.cam.height (categorical estimate of camera height above the bottom 1: &lt; 30 cm, 2: 30 cm to 99 cm, 3: &gt;= 1 m) 9. substrate (substrate type: soft, rock, mixed, other)
+10. occurrenceStatus (eelgrass present or absent)
+11. percent.cover (0: absent, 1: &lt; 5%, 2: 5 to 24%, 3: 25-49%, 4: 50-74%, 5: 75-100%)
+12. notes
+
+-Organized data sheets are sent to volunteers along with images for that trip for data extraction.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Data Analysis:
+
+- Analysts manually match GPS time stamps (hh:mm:ss) with photos that share the same time (+/-5 seconds) and record the file name under image.filename.
+- All rows of GPS coordinates without photos that meet the time window are removed from the dataset.
+- Image quality is assessed using a 3 category approach (1: poor image quality or &gt;50% image blocked, 2: good quality and &lt;50% image blocked and 3: clear image). Only photos with image quality = 2 or 3 are used for percent.cover estimate
+- Next, est.cam.height is determined (1: camera &lt; 30 cm from bottom, 2: 30 cm - 1m off the bottom, 3: 1m or more off the bottom); since we do not have scale in the photos, this is intended as a qualitative way to help us and other end users evaluate the suitability of a photograph for percent cover estimates and other purposes. Percent cover is only estimated for est.cam.height = 2 or 3 to ensure a reasonably large area of sea bottom can be seen.
+- Occurrence of eelgrass in the image is recorded as present(1) or absent(0).
+- If eelgrass is present and the image quality and camera heights both are scored a 2 or higher, percent cover is estimated using a categorical scale (0: absent, 1: &lt; 5%, 2: 5 to 24%, 3: 25-49%, 4: 50-74%, 5: 75-100%).
+- Notes are recorded related to analyst observations or other relevant details (an example would be noting the exact time difference of a photo that does not have a matching position to the second but does have a position within +/- 5 second window; this is recorded as &quot;Actual time of photo &apos;2020-07-17  6:32:17 AM&apos;&quot;
+- After the completion of the dataset, the analyst sends the completed spreadsheet for quality control.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Quality Control
+
+- The experienced individual that has been trained for quality control is sent compiled datasets from volunteer analysts
+- Using the photos that have been matched to GPS locations, the QC individual goes through the dataset, confirming accurate scoring across all variables and checking for discrepancies.
+- Any issues that are encountered regarding a volunteers work is brought to the attention of project coordinators, and, where necessary, the volunteer is retrained on the variable/scoring methods and data are revised
+- After the completion of the QC check, the dataset is sent to project coordinators for a final check and formatting scan to be sure the requirements for databases are met.</para>
+          </description>
+        </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Data are collected annually (summer-fall) in coastal areas throughout Nova Scotia.</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Time lapse photography is taken of the seafloor (every 30 seconds at depths up to 5 meters) using GoPro Hero 7 cameras. The cameras are attached to the keel of the kayak using a velcro sleeve with a standard GoPro mount, and a tie-down strap to secure in place. Either a smartphone tracking app or a handheld GPS (Garmin eTrex 10) are used for track recording depending on user preference and availability. The handheld devices are used to record GPS tracks of the paddle route. The times synced between devices to the second immediately prior to paddling to allow for photos to be matched with GPS coordinates following the survey. The paddling routes and resulting data are haphazard; we simply ask participants to photograph areas opportunistically as they paddle recreationally.</para>
+        </samplingDescription>
+      </sampling>
+      <qualityControl>
+        <description>
+          <para>The monitoring program uses a three-tier hierarchical quality structure when dealing with data. The data are first organized and distributed to volunteer students by the program coordinators. The volunteers are trained to link photos with associated GPS locations based on the time stamps for both and to identify and estimate percent cover of eelgrass. For the subset of images that can be linked to a GPS location (within a +/- 5 second window), the volunteers analyze the images for eelgrass presence/absence and percent cover. After the completion of this initial analysis, an inspection of the full dataset is conducted by an experienced analyst for quality assurance and control. This analyst ensures that the data are accurate, estimates of percent cover are consistent across volunteers, and that the data are formatted correctly. Lastly, program coordinators do a final run through to check for any additional discrepancies or issues before archiving the data.</para>
+        </description>
+      </qualityControl>
+  </methods>
+  <project id="Citizen Science Monitoring Project">
+    <title>Eelgrass Monitoring Program</title>
+      <personnel>
+        <individualName>
+            <givenName>Jordy</givenName>
+          <surName>Thomson</surName>
+        </individualName>
+        <role></role>
+      </personnel>
+      <abstract>
+        <para>The EAC Eelgrass Monitoring Program is a province-wide citizen science initiative implemented by the Ecology Action Centre (2019). We recruit volunteer kayakers from across the province who use a mounted camera system on the keel of their boat (programmed to take photos at set intervals) to photograph the seabed and track their paddles using a smartphone app or handheld GPS unit. Times synced between the camera and tracking device allow for matching photos with precise location data. The resulting geo-referenced imagery can be used for various mapping, monitoring and conservation purposes.</para>
+      </abstract>
+      <funding>
+        <para>Our funding for this project to date has come primarily from charitable foundations and individual donors (EAC members).</para>
+      </funding>
+      <studyAreaDescription>
+        <descriptor name="generic"
+                    citableClassificationSystem="false">
+          <descriptorValue>The project focuses on sheltered, nearshore coastal locations across Nova Scotia. These are locations of interest as they are the most suitable environments for eelgrass meadows to occur. Locations are surveyed on a volunteer basis so they change between seasons and years.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+      <designDescription>
+        <description>
+          <para>By building a monitoring program we hope to form a foundation for informed decision-making regarding the conservation and restoration of eelgrass meadows in Nova Scotia. The goal of EAC’s Citizen Science Eelgrass Monitoring Program is to enhance eelgrass mapping and monitoring capacity in Nova Scotia while encouraging growth in the public&apos;s appreciation and understanding of the importance of eelgrass meadows. The design of the surveys is opportunistic and haphazard. Instead of asking participants to run set transects, we ask them to simply photograph the areas that they tend to paddle while they are out recreationally. The result is basic point data with presence/absence and percent cover of eelgrass noted. The data are useful, for example, for basic mapping, groundtruthing aerial/satellite imagery and testing predictive habitat models.</para>
+        </description>
+      </designDescription>
+  </project>
+</dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+          <dateStamp>2021-06-24T14:10:56.447+00:00</dateStamp>
+          <hierarchyLevel>dataset</hierarchyLevel>
+            <formationPeriod>2019-current</formationPeriod>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

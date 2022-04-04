@@ -1,0 +1,196 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd" packageId="72de3af4-1572-4f2d-8006-2bfa2007065c/v.1.0" system="http://gbif.org" scope="system" xml:lang="eng">
+<dataset>
+<alternateIdentifier>XXX:URI for the EML</alternateIdentifier>
+<title xml:lang="eng">Ocean Networks Canada Visual Survey Data Example</title>
+<creator>
+<individualName>
+<surName>ONCS</surName>
+</individualName>
+<organizationName>Ocean Networks Canada Society</organizationName>
+<address>
+<deliveryPoint>University of Victoria Queenswood Campus 2474 Arbutus Road</deliveryPoint>
+<city>Victoria</city>
+<administrativeArea>British Columbia</administrativeArea>
+<postalCode>V8N-1V8</postalCode>
+<country>CA</country>
+</address>
+<electronicMailAddress>datastewardship@oceannetworks.ca</electronicMailAddress>
+</creator>
+<metadataProvider>
+<individualName>
+<surName>ONCS</surName>
+</individualName>
+<organizationName>Ocean Networks Canada Society</organizationName>
+<address>
+<country>CA</country>
+</address>
+</metadataProvider>
+<associatedParty>
+<individualName>
+<givenName>Sean</givenName>
+<surName>Tippett</surName>
+</individualName>
+<electronicMailAddress>stippett@oceannetworks.ca</electronicMailAddress>
+<role>custodianSteward</role>
+</associatedParty>
+<pubDate> 2021-01-01 </pubDate>
+<language>eng</language>
+<abstract>
+<para>The SubC Imaging 1Cam Mk5 SN 15548 was deployed on 2018-06-22 at Barkley Canyon Axis . Barkley Canyon Axis is located within Barkley Canyon, where benthic processes, biodiversity, sediment dynamics are observed. This device is a Video Camera. Video cameras record video of characteristics of the surrounding environments and can be deployed on fixed and mobile platforms. It was deployed on a fixed platform. Data from this deployment were archived and made available through Ocean Networks Canada's Oceans 2.0 digital infrastructure, with quality assurance and derived data products following established practices.</para>
+</abstract>
+<keywordSet>
+<keyword>sea_water_salinity</keyword>
+<keyword>sea_water_temperature</keyword>
+<keyword>sea_water_temperature</keyword>
+<keywordThesaurus>Global Change Master Directory: http://vocab.nerc.ac.uk/collection/P64/current/</keywordThesaurus>
+</keywordSet>
+<additionalInfo>
+<para>marine, harvested by iOBIS</para>
+</additionalInfo>
+<intellectualRights>
+<para>
+This work is licensed under a
+<ulink url="http://creativecommons.org/licenses/by/4.0/legalcode">
+<citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle>
+</ulink>
+.
+</para>
+</intellectualRights>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Barkley Canyon Axis is located within Barkley Canyon, where benthic processes, biodiversity, sediment dynamics are observed.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-130.000238</westBoundingCoordinate>
+<eastBoundingCoordinate>-126.057941</eastBoundingCoordinate>
+<northBoundingCoordinate>48.700794</northBoundingCoordinate>
+<southBoundingCoordinate>46.999910</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2012-10-23</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2014-08-07</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Placeholder</generalTaxonomicCoverage>
+<taxonomicClassification>
+<taxonRankName>phylum</taxonRankName>
+<taxonRankValue>Annelida</taxonRankValue>
+<commonName>Worms</commonName>
+</taxonomicClassification>
+<taxonomicClassification>
+<taxonRankName>phylum</taxonRankName>
+<taxonRankValue>Arthropoda</taxonRankValue>
+<commonName>Arthropods</commonName>
+</taxonomicClassification>
+<taxonomicClassification>
+<taxonRankName>phylum</taxonRankName>
+<taxonRankValue>Chordata</taxonRankValue>
+<commonName>Chordates</commonName>
+</taxonomicClassification>
+<taxonomicClassification>
+<taxonRankName>phylum</taxonRankName>
+<taxonRankValue>Chaetognatha</taxonRankValue>
+<commonName>Arrow Worms</commonName>
+</taxonomicClassification>
+<taxonomicClassification>
+<taxonRankName>phylum</taxonRankName>
+<taxonRankValue>Cnidaria</taxonRankValue>
+<commonName>Cnidarians</commonName>
+</taxonomicClassification>
+<taxonomicClassification>
+<taxonRankName>phylum</taxonRankName>
+<taxonRankValue>Ctenophora</taxonRankValue>
+<commonName>Comb Jellies</commonName>
+</taxonomicClassification>
+<taxonomicClassification>
+<taxonRankName>phylum</taxonRankName>
+<taxonRankValue>Mollusca</taxonRankValue>
+<commonName>Molluscs</commonName>
+</taxonomicClassification>
+<taxonomicClassification>
+<taxonRankName>phylum</taxonRankName>
+<taxonRankValue>Echinodermata</taxonRankValue>
+<commonName>Echinoderms</commonName>
+</taxonomicClassification>
+<taxonomicClassification>
+<taxonRankName>phylum</taxonRankName>
+<taxonRankValue>Porifera</taxonRankValue>
+<commonName>Sponges</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<maintenance>
+<description>
+<para>This is a test.</para>
+</description>
+<maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+</maintenance>
+<contact>
+<individualName>
+<surName>ONCS</surName>
+</individualName>
+<organizationName>Ocean Networks Canada Society</organizationName>
+<address>
+<deliveryPoint>University of Victoria Queenswood Campus 2474 Arbutus Road</deliveryPoint>
+<city>Victoria</city>
+<administrativeArea>British Columbia</administrativeArea>
+<postalCode>V8N-1V8</postalCode>
+<country>CA</country>
+</address>
+<electronicMailAddress>datastewardship@oceannetworks.ca</electronicMailAddress>
+<onlineUrl>https://www.oceannetworks.ca/</onlineUrl>
+<userId directory="https://ror.org/">05gknh003</userId>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>The Ecological Archives E095-123-D1 version of the dataset was reformatted, standardized and Darwin Core (DwC) records were created by the OBIS Canada data management team and the Atlantic Coastal Zone Information Steering Committee (ACZISC) in collaboration with the original investigators as part of the Atlantic Ecosystem Initiative (AEI) funded project “Atlantic Canada’s Biological Data for Ecosystem Planning and Decision-making”</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>Can use this to reiterate the search tree node location, temporal boundries and frequency, and groups of living organisms sampled (taxonomic coverage)</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Describes the sampling procedure, like in the methods section of a journal article.</para>
+</samplingDescription>
+</sampling>
+<qualityControl>
+<description>
+<para>Use this section to describe the utilites of certain data objects like identificationVerificationStatus rankings, and dmasuserids in identifiedBy columns. Can replicate more method steps if needed</para>
+</description>
+</qualityControl>
+</methods>
+</dataset>
+<additionalMetadata>
+<metadata>
+<gbif>
+<dateStamp>2020-01-01T00:00:00Z</dateStamp>
+<hierarchyLevel>dataset</hierarchyLevel>
+<citation identifier="https://doi.org/10.34943/23F98FB5-B34D-447C-A8E7-C47AF5E41CFD">Ocean Networks Canada Society. (2018). Barkley Canyon Axis Video Camera Deployed 2018-06-22 [Data set]. Ocean Networks Canada Society. https://doi.org/10.34943/23F98FB5-B34D-447C-A8E7-C47AF5E41CFD</citation>
+<physical>
+<objectName>Dataset Collection</objectName>
+<characterEncoding>UTF-8</characterEncoding>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>HTML</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<online>
+<url function="information">http://dx.doi.org/10.21966/1.566666</url>
+</online>
+</distribution>
+</physical>
+</gbif>
+</metadata>
+</additionalMetadata>
+</eml:eml>
